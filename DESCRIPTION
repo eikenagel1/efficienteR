@@ -1,0 +1,22 @@
+Package: efficienteR
+Type: Package
+Title: Utilities for Efficient Analysis
+Version: 0.1.0
+Authors@R: 
+    person(given = "Eike", family = "Nagel",
+           email = "150724736+eikenagel1@users.noreply.github.com",
+           role = c("aut", "cre"))
+Description: Common helpers for data cleaning, quick plotting, and summaries.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    dplyr,
+    ggplot2,
+    janitor,
+    readr,
+    rlang
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
