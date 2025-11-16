@@ -10,6 +10,7 @@ Description: Common helpers for data cleaning, quick plotting, and summaries.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Imports:
+    broom,
     dplyr,
     ggplot2,
     janitor,
